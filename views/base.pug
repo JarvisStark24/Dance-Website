@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Jarvis Dance Academy
+    block scripts
+    block style
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                | JDA
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Service]
+            li #[a(href="/") Class info]
+            li #[a(href="/contact") Contact us]
+    block content
+    footer#footer
+        | Copyright © 2023 JarvisDanceAcademy.com | All rights resereved 
